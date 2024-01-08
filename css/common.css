@@ -1,0 +1,56 @@
+:root {
+  --main-color: #5B8A3D;
+  --sub-color : #EFE9DF;
+
+  --light-gray: #f9f9f9;
+}
+
+body{
+  background-color: #fff;
+  color: #222;
+}
+
+
+.pcView {
+  display: block !important;
+}
+.moView {
+  display: none !important;
+}
+
+
+
+/* Layout */
+
+.wrap{
+  max-width: 1520px;
+  margin: 0 auto;
+}
+
+
+.title-box {
+  word-break: keep-all;
+  margin-bottom: 50px;
+}
+.title-box span {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--main-color);
+  letter-spacing: -0.025em;
+  display: block;
+  margin-bottom: 15px;
+}
+.title-box h2 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+
+
+
+
+
+
+
+

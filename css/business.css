@@ -1,0 +1,70 @@
+section#business {
+  height: 100%;
+  padding: 120px 0;
+}
+section#business .wrap {}
+section#business .wrap .title-box {
+  text-align: center;
+}
+section#business .wrap .business-cont-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4px;
+}
+section#business .wrap .business-cont-box li {
+  width: 48%;
+}
+section#business .wrap .business-cont-box li a {
+  width: 100%;
+  position: relative;
+  transition: all .3s ease-in;
+}
+section#business .wrap .business-cont-box li a .img-box {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+  border-radius: 0 50px 0 50px;
+}
+section#business .wrap .business-cont-box li a .img-box img {
+  width: 100%;
+}
+section#business .wrap .business-cont-box li a .txt-box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(91, 138, 61, 75%);
+  border-radius: 0 50px 0 50px;
+  color: #fff;
+}
+section#business .wrap .business-cont-box li a .txt-box h4 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 150%;
+}
+section#business .wrap .business-cont-box li a .txt-box p {
+  font-size: 18px;
+}
+
+
+
+
+/* response */
+@media screen and (max-width:768px) {
+  section#business .wrap .title-box {
+    margin-top: 0 !important;
+    padding-top: 40px !important;
+  }
+  section#business .wrap .business-cont-box {
+      display: block !important;
+  }
+  section#business .wrap .business-cont-box li {
+      width: 100% !important;
+  }
+}

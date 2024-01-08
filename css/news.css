@@ -1,0 +1,120 @@
+section#news {
+  padding: 120px 0;
+}
+
+section#news .wrap {
+  height: 100%;
+}
+
+section#news .wrap .title-box {
+  text-align: center;
+}
+section#news .wrap .title-box h2 {
+  margin-bottom: 17px;
+}
+section#news .wrap .title-box p {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+}
+
+
+
+section#news .wrap .news-cont-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+section#news .wrap .news-cont-box .news-cont-item {
+  width: 43%;
+  height: 27px;
+  border-radius: 0 50px 0 50px;
+  padding: 23px 40px;
+  display: flex;
+  background-color: var(--sub-color);
+}
+section#news .wrap .news-cont-box .news-cont-item h3 {
+  width: 100px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+}
+
+
+section#news .wrap .news-cont-box .news-cont-item .swiper {
+  width: 80%;
+  height: 100%;
+  padding-left: 10px;
+  margin: 0;
+}
+section#news .wrap .news-cont-box .news-cont-item .swiper .swiper-slide a {
+  display: block;
+  width: 90%;
+  line-height: 27px;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-radius: 0;
+}
+section#news .wrap .news-cont-box .news-cont-item .more {
+  font-size: 16px;
+  color: var(--main-color);
+  line-height: 27px;
+  position: relative;
+}
+section#news .wrap .news-cont-box .news-cont-item .more::before {
+  content: "+";
+  position: absolute;
+  top: 2px;
+  left: -15px;
+}
+
+
+section#news .wrap .swiper {
+  width: 100%;
+  margin-top: 50px;
+}
+section#news .wrap .swiper .swiper-slide a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 0 50px 0 50px;
+  overflow: hidden;
+}
+section#news .wrap .swiper .swiper-slide a img {
+  width: 100%;
+}
+
+
+
+
+
+
+/* response */
+@media screen and (max-width:1200px) {
+
+}
+
+@media screen and (max-width:768px) {
+  section#news .wrap .news-cont-box {
+    display: block;
+  }
+
+  section#news .wrap .news-cont-box .news-cont-item {
+    width: 84%;
+    padding: 15px 8%
+  }
+  section#news .wrap .news-cont-box .news-cont-item:nth-child(2) {
+    margin-top: 20px;
+  }
+  section#news .wrap .news-cont-box .news-cont-item h3 {
+    width: 80px;
+    font-size: 16px
+  }
+
+  section#news .wrap .swiper .swiper-slide a {
+    width: 90vw;
+    max-height: 50vw;
+  }
+}

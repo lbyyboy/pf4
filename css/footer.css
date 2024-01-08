@@ -1,0 +1,136 @@
+footer {
+  background-color: #222;
+  padding-bottom: 20px;
+}
+footer .ft-top {
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid #555;
+}
+
+
+footer .ft-top .wrap ul.pnb {
+  display: flex;
+}
+footer .ft-top .wrap ul.pnb li {
+  float: left;
+}
+footer .ft-top .wrap ul.pnb li a {
+  display: block;
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  line-height: 30px;
+  padding: 0 9px;
+}
+footer .ft-top .wrap ul.pnb li a.bold {
+  font-weight: 500;
+}
+footer .ft-top .wrap ul.pnb li:first-child a {
+  padding-left: 0;
+}
+
+
+
+footer .ft-btm {
+  width: 100%;
+  height: 100%;
+  padding: 25px 0;
+}
+footer .ft-btm .wrap {
+  width: 100%;
+  display: flex;
+  align-items: start;
+}
+
+footer .ft-btm .wrap h1 a {
+  font-size: 0;
+  width: 130px;
+  height: 30px;
+  display: block;
+  background-image: url(../img/logo.svg);
+  background-repeat: no-repeat;
+}
+footer .ft-btm .wrap .ft-txt {
+  margin-left: 200px;
+}
+footer .ft-btm .wrap .ft-txt h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 20px;
+}
+footer .ft-btm .wrap .ft-txt address {
+  font-size: 12px;
+  font-weight: 300;
+  color: #fff;
+  line-height: 22px;
+}
+footer .ft-btm .wrap .ft-txt address span {
+  margin-right: 13px;
+}
+footer .ft-btm .wrap .ft-txt .copy {
+  font-size: 12px;
+  font-weight: 300;
+  color: #fff;
+  line-height: 22px;
+}
+
+
+footer .ft-btm .wrap .ft-right {
+  margin-left: 30px;
+}
+footer .ft-btm .wrap .ft-right .blog {
+  height: 100%;
+  transition: all .3s;
+}
+footer .ft-btm .wrap .ft-right .blog:hover {
+  opacity: .9;
+}
+footer .ft-btm .wrap .ft-right .blog img {
+  vertical-align: middle;
+}
+footer .ft-btm .wrap .ft-right .family-site {
+  padding: 20px 9px;
+}
+footer .ft-btm .wrap .ft-right select {
+  background: #555;
+  color: #eee;
+  margin: 0 auto;
+  height: 30px;
+  width: 140px;
+}
+
+
+/* response */
+
+@media screen and (max-width: 1200px) {
+  footer .ft-btm .wrap .ft-txt {
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  footer .ft-top .wrap ul.pnb {
+    justify-content: space-between;
+  }
+
+  footer .ft-btm .wrap {
+    display: block;
+    height: 100%;
+  }
+  footer .ft-btm .wrap .ft-txt {
+    margin: 0;
+  }
+
+  footer .ft-btm .wrap .ft-right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+}
+
+
+
+
+

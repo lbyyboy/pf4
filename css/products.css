@@ -1,0 +1,75 @@
+section#products {
+  height: 100%;
+  padding: 120px 0;
+ }
+section#products .wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+
+section#products .wrap .title-box {
+  width: 500px;
+}
+section#products .wrap .swiper {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 50px;
+}
+section#products .wrap .swiper article figure {
+  width: 100%;
+  height: 200px;
+  border-radius: 0 50px 0 50px;
+  overflow: hidden;
+}
+section#products .wrap .swiper article figure img {
+  height: 200px;
+}
+section#products .wrap .swiper article figure figcaption {
+  display: none;
+}
+section#products .wrap .swiper article .txt-box {
+  margin-top: 15px;
+}
+section#products .wrap .swiper article .txt-box h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+section#products .wrap .swiper article .txt-box p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  line-height: 24px;
+  word-break: keep-all;
+}
+
+section#products .wrap .swiper .swiper-pagination {
+  top: initial;
+  bottom: 0;
+  background-color: var(--sub-color);
+}
+section#products .wrap .swiper .swiper-pagination .swiper-pagination-progressbar-fill {
+  background-color: var(--main-color);
+}
+
+
+
+
+@media screen and (max-width:1200px) {
+  section#products .wrap {
+    display: block;
+  }
+  section#products .wrap .swiper article .txt-box br {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width:768px) {
+  section#products .wrap .swiper article figure {
+    height: 250px;
+  }
+  section#products .wrap .swiper article figure img {
+    width: 100%;
+    height: 100%;
+  }
+}
