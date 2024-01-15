@@ -1,5 +1,5 @@
 section#news {
-  padding: 120px 0;
+  padding: 120px 0 150px;
 }
 
 section#news .wrap {
@@ -75,15 +75,26 @@ section#news .wrap .swiper {
   width: 100%;
   margin-top: 50px;
 }
+section#news .wrap .swiper .swiper-wrapper {
+  margin-bottom: 30px;
+}
 section#news .wrap .swiper .swiper-slide a {
   display: block;
   width: 100%;
-  height: 100%;
+  height: 200px;
   border-radius: 0 50px 0 50px;
   overflow: hidden;
 }
 section#news .wrap .swiper .swiper-slide a img {
   width: 100%;
+}
+section#news .wrap .swiper .swiper-pagination {
+  top: initial;
+  bottom: 0;
+  background-color: var(--sub-color);
+}
+section#news .wrap .swiper .swiper-pagination .swiper-pagination-progressbar-fill {
+  background-color: var(--main-color);
 }
 
 
@@ -103,7 +114,8 @@ section#news .wrap .swiper .swiper-slide a img {
 
   section#news .wrap .news-cont-box .news-cont-item {
     width: 84%;
-    padding: 15px 8%
+    padding: 15px 8%;
+    border-radius: 0 30px 0 30px;
   }
   section#news .wrap .news-cont-box .news-cont-item:nth-child(2) {
     margin-top: 20px;

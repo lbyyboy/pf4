@@ -40,6 +40,7 @@ footer .ft-btm {
 footer .ft-btm .wrap {
   width: 100%;
   display: flex;
+  justify-content: space-between;
   align-items: start;
 }
 
@@ -48,8 +49,9 @@ footer .ft-btm .wrap h1 a {
   width: 130px;
   height: 30px;
   display: block;
-  background-image: url(../img/logo.svg);
+  background-image: url(../img/logo-w.svg);
   background-repeat: no-repeat;
+  margin-bottom: 15px;
 }
 footer .ft-btm .wrap .ft-txt {
   margin-left: 200px;

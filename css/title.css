@@ -32,6 +32,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 #title .wrap  .main-title-swiper .swiper-slide .title-box p {
   font-size: 20px;
@@ -67,8 +68,10 @@
   #title .wrap  .main-title-swiper .swiper-slide .title-box p {
     font-size: 14px;
     margin-bottom: 25px;
+    line-height: 22px;
   }
   #title .wrap  .main-title-swiper .swiper-slide .title-box h2 {
     font-size: 40px;
+    line-height: 50px;
   }
 }
